@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Repetir bloco para os 10 eventos -->
+        <ImageButton
+            android:id="@+id/btnEvento1"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento1"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 1" />
+
+        <ImageButton
+            android:id="@+id/btnEvento2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento2"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 2" />
+
+        <ImageButton
+            android:id="@+id/btnEvento3"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento3"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 3" />
+
+        <ImageButton
+            android:id="@+id/btnEvento4"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento4"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 4" />
+
+        <ImageButton
+            android:id="@+id/btnEvento5"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento5"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 5" />
+
+        <ImageButton
+            android:id="@+id/btnEvento6"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento6"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 6" />
+
+        <ImageButton
+            android:id="@+id/btnEvento7"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento7"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 7" />
+
+        <ImageButton
+            android:id="@+id/btnEvento8"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento8"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 8" />
+
+        <ImageButton
+            android:id="@+id/btnEvento9"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento9"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 9" />
+
+        <ImageButton
+            android:id="@+id/btnEvento10"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/evento10"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:contentDescription="Evento 10" />
+
+    </LinearLayout>
+</ScrollView>
